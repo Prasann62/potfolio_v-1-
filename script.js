@@ -16,9 +16,5 @@ ScrollReveal().reveal('.about-content', {
 });
 
 
-ScrollReveal().reveal('.contact-section', {
-  origin: 'bottom',
-  distance: '60px',
-  duration: 1000,
-  delay: 300,
-});
+ScrollReveal().reveal('.contact-form', { origin: 'bottom', distance: '60px', duration: 1000, delay: 300 });
+
